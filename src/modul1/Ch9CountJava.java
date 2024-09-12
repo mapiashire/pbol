@@ -10,12 +10,12 @@ public class Ch9CountJava {
         while (true) {
             System.out.print("Next word: ");
             word = scanner.next();
-            if (word.equals("STOP")) {
+            if (word.equals("STOP")) {// blok kode if yang akan dikerjakan jika user mengimput "STOP"
                 break;
-            } else if (word.equalsIgnoreCase("Java")) {
-                javaCount++;
+            } else if (word.equalsIgnoreCase("Java")) {// blok kode if yang akan dikerjakan jika user mengimput "java" tanpa memperhatikan huruf kapital atau kecil
+                javaCount++;// menambahkan isi variabel javaCount sebanyak 1
             }
         }
-        System.out.println("'Java' count: " + javaCount);
+        System.out.println("'Java' count: " + javaCount);// Mencetak isi variabel javaCount
     }
 }

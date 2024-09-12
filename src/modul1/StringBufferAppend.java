@@ -11,15 +11,15 @@ public class StringBufferAppend {
         long longValue = 10000000000L;
         float floatValue = 2.5f;
         double doubleValue = 33.333;
-        StringBuffer lastBuffer = new StringBuffer( "last StringBuffer" );
+        StringBuffer lastBuffer = new StringBuffer( "last StringBuffer" );// membuat objek StringBuffer dengan konstruktor
         StringBuffer buffer = new StringBuffer();
-        buffer.append( objectRef );
-        buffer.append( "\n" );
-        buffer.append( string );
+        buffer.append( objectRef );// menambahkan objectRef ke buffer
+        buffer.append( "\n" );// menambahkan newline ke buffer agar tiap bagian berada pada barisnya sendiri
+        buffer.append( string );//
         buffer.append( "\n" );
         buffer.append( charArray );
         buffer.append( "\n" );
-        buffer.append( charArray, 0, 3 );
+        buffer.append( charArray, 0, 3 );// menambahkan charArray dari index 0 hingga 3 ke buffer
         buffer.append( "\n" );
         buffer.append( booleanValue );
         buffer.append( "\n" );
@@ -34,6 +34,6 @@ public class StringBufferAppend {
         buffer.append( doubleValue );
         buffer.append( "\n" );
         buffer.append( lastBuffer );
-        System.out.printf( "buffer contains %s\n", buffer.toString() );
+        System.out.printf( "buffer contains %s\n", buffer.toString() );// menampilkan isi dari buffer setelah semuanya di append
     }
 }

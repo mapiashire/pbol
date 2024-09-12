@@ -11,7 +11,7 @@ public class StringBufferInsert {
         long longValue = 10000000;
         float floatValue = 2.5f;
         double doubleValue = 33.333;
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = new StringBuffer();// membuat objek StringBuffer
         buffer.insert( 0, objectRef );
         buffer.insert( 0, "  " );
         buffer.insert( 0, string );

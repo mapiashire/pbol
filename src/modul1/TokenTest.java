@@ -9,10 +9,10 @@ public class TokenTest {
         Scanner scanner = new Scanner( System.in );
         System.out.print( "Enter a sentence and press Enter : " );
         String sentence = scanner.nextLine();
-        StringTokenizer tokens = new StringTokenizer( sentence,"[aeiou]");
+        StringTokenizer tokens = new StringTokenizer( sentence,"[aeiou]");// memecah kalimat berdasarkan huruf vokal
         System.out.printf( "Number of elements: %d\nThe tokens are:\n",
-                tokens.countTokens() );
-        while ( tokens.hasMoreTokens() )
+                tokens.countTokens() );// menampilkan jumlah token
+        while ( tokens.hasMoreTokens() )// perulangan untuk menampilkan token
             System.out.println( tokens.nextToken() );
     }
 }
