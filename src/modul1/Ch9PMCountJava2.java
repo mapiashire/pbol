@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

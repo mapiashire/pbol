@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 public class StringBufferAppend {
     public static void main(String[] args) {
         Object objectRef = "hello";

@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 import java.util.Scanner;
 import java.util.regex.Matcher;// mengimpor Matcher dari package java.util.regex yang berfungsi untuk mencocokkan pola
 import java.util.regex.Pattern;// mengimpor Pattern dari package java.util.regex yang berfungsi untuk membuat pola

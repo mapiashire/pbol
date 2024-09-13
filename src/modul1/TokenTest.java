@@ -1,10 +1,14 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class TokenTest {
-    public static void main( String args[] )
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner( System.in );
         System.out.print( "Enter a sentence and press Enter : " );

@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 import java.util.StringTokenizer;
 
 public class StringConstructors {

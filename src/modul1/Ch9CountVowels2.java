@@ -1,5 +1,7 @@
 package modul1;
-
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
 import java.util.Scanner;
 
 public class Ch9CountVowels2 {

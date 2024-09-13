@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 public class RegexSubstitution {
     public static void main(String[] args) {
         String firstString = "Every day is sunday";

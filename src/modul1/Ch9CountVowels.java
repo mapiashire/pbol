@@ -1,7 +1,9 @@
 package modul1;
 
 import java.util.Scanner;
-
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
 public class Ch9CountVowels {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,5 +1,9 @@
 package modul1;
 
+/**
+ * @author Anugrah Frumensius Gansalangi//235314091
+ */
+
 public class Ch9TestString {
     public static void main(String[] args) {
         String message = "Welcome to Java!";
